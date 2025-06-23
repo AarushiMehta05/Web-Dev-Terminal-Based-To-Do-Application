@@ -1,0 +1,51 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .container{
+    text-align: center;
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 20px ;
+    border-radius: 20px;
+    width: 650px;
+    min-height: 700px;
+ }
+ .input{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+             margin: 30px auto;     
+             input{
+                height: 30px;
+                width: 70%
+             }      
+        }
+        .task{
+            
+            margin-top: 30px;
+            /* font-size: 1.4rem; */
+            display: flex;
+            justify-content:space-between;
+           
+            border: 2px solid black;
+            padding: 10px 3px;
+            margin: 10px 3px
+        }
+    #add-btn{
+        width: max-content; 
+        height: 30px;
+        padding: 5px; 
+        margin: 5px 5px;
+        font-family: "Monospace text";
+    }
+
+    .checked{
+        text-decoration: line-through;
+    }
+
+    .remove-check{
+        text-decoration:overline;
+    }
