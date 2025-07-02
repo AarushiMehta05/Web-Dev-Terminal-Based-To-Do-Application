@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h1> <u> <em>To-Do List</em></u></h1>
+    <div class="input" >
+        <input type="Text" placeholder="Input Task"> 
+        <button id="add-btn">Add</button>
+    </div>
+
+    <div class="list">
+        <div class="task">
+            <div class="left-section" style="display: flex; flex-wrap: wrap; gap: 20px;">
+                 <input type="checkbox" class="checkbox" > 
+                 <p>Learn JS</p>
+            </div>
+            <div class="right-section">
+                <span class="moveup">⬆️</span>
+                <span class="binBtn">🗑️</span>
+                <span class="movedown">⬇️</span>
+            </div>        
+        </div>
+       
+         <div class="task">
+            <div class="left-section" style="display: flex; flex-wrap: wrap; gap: 20px;">
+                 <input type="checkbox" class="checkbox"> 
+                 <p>Learn React</p>
+            </div>
+            <div class="right-section">
+                <span class="moveup">⬆️</span>
+                <span class="binBtn">🗑️</span>
+                <span class="movedown">⬇️</span>
+            </div>        
+        </div>
+        
+    </div>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>
